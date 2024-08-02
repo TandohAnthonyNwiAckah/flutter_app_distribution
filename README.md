@@ -29,5 +29,5 @@ Add the following secrets to your GitHub repository if you are not adding the `g
 
 
 # RESULT 
-- Result after sucessful build
+- Result after successful build
 ![Main Page](screenshot/1.png)
