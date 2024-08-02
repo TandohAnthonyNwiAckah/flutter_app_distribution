@@ -25,8 +25,8 @@ jobs:
         env:
           DATA: ${{secrets.GOOGLE_SERVICES_JSON}}  # Your base64-encoded secret
         run: |
-          mkdir -p app
-          echo "$DATA" | base64 -di > app/google-services.json
+          mkdir -p android/app
+          echo "$DATA" | base64 -di > android/app/google-services.json
           
       - name: Build APK for Android
         run: flutter build apk --release  # Build the release APK for Android
