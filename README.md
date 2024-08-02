@@ -32,4 +32,7 @@ Add the following secrets to your GitHub repository if you are not adding the `g
 
 # RESULT 
 - Result after successful build
-![Main Page](screenshot/1.png)
+
+| DEPLOYMENT | LINT |
+| ------ |------ |
+|![Main Page](screenshot/1.png)|![Main Page](screenshot/2.png)|
