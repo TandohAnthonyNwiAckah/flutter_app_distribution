@@ -1,4 +1,6 @@
-# Deploying a Flutter App to Firebase App Distribution Using GitHub Actions
+# FLUTTER APP DISTRIBUTION
+
+## Deploying a Flutter App to Firebase App Distribution Using GitHub Actions
 
 This repository contains a Flutter application with a GitHub Actions workflow configured to deploy the app to Firebase App Distribution for Android.
 This guide explains how to set up and use the workflow.
@@ -15,7 +17,7 @@ The GitHub Actions workflow automates the process of building and deploying your
 
 ## GitHub Repository Secrets
 
-Add the following secrets to your GitHub repository:
+Add the following secrets to your GitHub repository if you are not adding the `google-services.json` manually :
 
 - `GOOGLE_SERVICES_JSON`: Base64-encoded contents of your `google-services.json` file. You can encode it using the following command:
   ```bash
